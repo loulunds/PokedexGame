@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');
+
+.Pokecard {
+    width: 300px;
+    padding: 10px;
+    margin: 1rem;
+    box-shadow: 7px 10px 12px rgba(0,0,0,0.56);
+    background-color: white;
+    border-radius: 3px;
+}
+
+.Pokecard-title {
+    font-size: 40px;
+    font-family: 'DotGothic16', sans-serif;
+}
+
+.Pokecard-data {
+    font-size: 80%;
+
+}
+
+.Pokecard-image {
+    height: 20vh;
+    transition: all ease 500ms;
+}
+
+.Pokecard-image:hover {
+    transform: scale(1.25);
+}
+
+.Pokecard-frame {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    background-color: #eceff1;
+    border-radius: 3px;
+    margin: 1rem;
+}
+

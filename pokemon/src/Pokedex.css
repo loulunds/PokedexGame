@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');
+
+.Pokedex-cards {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.Pokedex-winner {
+    color: green;
+}
+
+.Pokedex-loser {
+    color: red;
+}
+
+.Pokedex-title {
+    font-family: 'DotGothic16', sans-serif;
+    font-size: 60px;
+}
+
+.Pokedex-button {
+    border-radius: 3px;
+    background-color: white;
+
+}
+
+.Pokedex-button:hover {
+    transform: scale(1.5);
+}
